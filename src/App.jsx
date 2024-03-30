@@ -1,7 +1,8 @@
-import "dotenv/config";
+import firebaseConfig from "./config/firebase/firebase.init";
+
 
 const App = () => {
-  console.log(process.env);
+  console.log(firebaseConfig);
   return <div>App</div>;
 };
 
